@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Prisma generated client
+src/generated/
+
+# AI coding agent skills (not required in project repository)
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# macOS
+.DS_Store
