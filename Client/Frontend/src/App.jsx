@@ -1,7 +1,7 @@
 
 function App(){
   return(
-    <div></div>
+    <div className="text-lg text-red-500"> This is the first text for the app with tailwindcss</div>
   )
 }
 
