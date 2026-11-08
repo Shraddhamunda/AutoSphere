@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import authRouter from "./routes/authRoute.js";
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ app.use(cors({
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
+app.use("/api/auth",authRouter)
 
 app.get("/api/health", (req,res)=>{
     res.status(200).json({
