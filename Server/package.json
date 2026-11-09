@@ -4,9 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.js",
-    "start": "tsx src/server.js"
-  },
+  "dev": "tsx watch src/server.js",
+  "start": "node src/server.js",
+  "build": "prisma generate"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
