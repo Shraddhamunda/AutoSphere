@@ -1,0 +1,48 @@
+const cars = [
+  {
+    id: 1,
+    name: "Hyundai Creta",
+    brand: "Hyundai",
+    price: 1250000,
+    fuel: "Petrol",
+    transmission: "Automatic",
+    year: 2025,
+    mileage: "17 km/l",
+    image: "/cars/creta.avif",
+  },
+  {
+    id: 2,
+    name: "Tata Nexon",
+    brand: "Tata",
+    price: 950000,
+    fuel: "Diesel",
+    transmission: "Manual",
+    year: 2025,
+    mileage: "23 km/l",
+    image: "/cars/nexon.avif",
+  },
+  {
+    id: 3,
+    name: "Mahindra XUV700",
+    brand: "Mahindra",
+    price: 1850000,
+    fuel: "Diesel",
+    transmission: "Automatic",
+    year: 2025,
+    mileage: "17 km/l",
+    image: "/cars/xuv700.avif",
+  },
+  {
+    id: 4,
+    name: "Maruti Suzuki Brezza",
+    brand: "Maruti Suzuki",
+    price: 900000,
+    fuel: "Petrol",
+    transmission: "Manual",
+    year: 2025,
+    mileage: "20 km/l",
+    image: "/cars/brezza.avif",
+  },
+];
+
+export default cars;
